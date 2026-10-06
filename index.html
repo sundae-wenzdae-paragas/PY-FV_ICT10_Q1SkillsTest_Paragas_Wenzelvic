@@ -7,8 +7,52 @@
 </head>
 <body>
     
-    
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seatwork #1</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+        
+    <link rel="stylesheet" href="index.css">
+
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script> 
+
+</head>
+<body>
+
+<py-script src="main.py"></py-script>
+
+<div class="container text-center">
+        
+<h1>Obmc Pizzeria</h1>
+<h4>We only sell whole pizzas!</h4>
+
+    <input type="checkbox" id="order1"> <label>Pepperoni Pizza</label><br>
+
+    <input type="checkbox" id="order2"> <label>Cheese Pizza</label><br>
+
+    <input type="checkbox" id="order3"> <label>Margherita Pizza</label><br>
+
+    <input type="checkbox" id="order4">
+    <label>Meat Lover's Pizza</label><br>
+
+    <input type="checkbox" id="order5"> <label>Pizza Supreme</label><br>
+
+    <input type="checkbox" id="order6"> <label>Hawaiian Pizza</label><br>
+
+    <button type="submit" py-click="check out">Place Order</button>
+
+<div id="output1"></div>
+
+<div id="output" class="mt-4"></div>
+</div>
+
+</body>
+</html>
     
 </body>
 </html>
