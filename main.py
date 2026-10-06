@@ -4,12 +4,12 @@ def checkout(e): #I put def "checkout" to let pyscript know that I want it to co
 
     document.getElementById("output").innerHTML = ""
     
-    price1 = 120
-    price2 = 120
-    price3 = 135
-    price4 = 135
-    price5 = 200
-    price6 = 175
+    price1 = 420
+    price2 = 420
+    price3 = 435
+    price4 = 435
+    price5 = 500
+    price6 = 475
 #These are the prices of each item that I will connect to the respective orders
 
     item1 = document.getElementById("order1").checked * price1
